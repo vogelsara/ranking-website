@@ -12,12 +12,21 @@
 
 <?php
 
-$song1 = "Mamma mia";
-$song2 = "Waterloo";
-$song3 = "Super Trouper";
-$song4 = "Dancing Queen";
+include 'functions.php';
 
-$rankinOfSongs = array($song1 => 1, $song2 => 2, $song3 => 3, $song4 => 4);
+$list = array(
+    1 => "1 point, Super Trouper",
+    34 => "34 points, Mamma Mia",
+    42 => "42 points, Fernando",
+    11 => "11 points, Honey, honey",
+    99 => "99 points, Chiquitita",
+    22 => "22 points, Dancing Queen",
+    26 => "26 points, S.O.S.",
+    73 => "73 points, The winner takes it all",
+    63 => "63 points, Thank you for the music"
+);
+
+sortAndPrintArray($list);
 
 ?>
 

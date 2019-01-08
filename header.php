@@ -4,9 +4,9 @@
 echo
 "<header>
         <nav>
-            <a>start</a>
-            <a>listan</a>
-            <a>kontakt</a>
+            <a href=\"index.php\">start</a>
+            <a href=\"listan.php\">listan</a>
+            <a href=\"kontakt.php\">kontakt</a>
         </nav>
 </header>"
 

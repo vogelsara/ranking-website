@@ -9,8 +9,18 @@
 </head>
 <body>
     <?php include 'header.php';?>
-        <div id="rankingList">
-        </div>
+
+    <img id="discoball" src="./img/discobulb.gif">
+    <h1>
+    <?php 
+        include 'constant.php';
+        echo TITLE;
+    ?>
+    </h1>
+    <p id="welcome-message">Are you fan of ABBA? <br>
+    It will be your favourite website!
+    </p>
+
     <?php include 'footer.php';?>
 </body>
 </html>

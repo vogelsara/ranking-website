@@ -8,12 +8,9 @@
     <title>ABBA Songs Ranking Website</title>
 </head>
 <body>
-        <?php include 'header.php';?>
-    <div id="rankingList">
-    </div>
-    <footer>
-        <p>Göteborg, 2019.01.</p>
-        <p>Created by Sára Vogel</p>
-    </footer>
+    <?php include 'header.php';?>
+        <div id="rankingList">
+        </div>
+    <?php include 'footer.php';?>
 </body>
 </html>

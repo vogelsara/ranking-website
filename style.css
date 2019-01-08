@@ -28,5 +28,7 @@ nav a {
 footer {
     height: 3em;
     background-color:  blueviolet;
-    margin-bottom: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }

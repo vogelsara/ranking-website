@@ -20,13 +20,6 @@
     <p id="welcome-message">Are you fan of ABBA? <br>
     It will be your favourite website!
     </p>
-    <h2>Facts about the songs</h2>
-    <div class="dropdown">
-        <button class="dropbtn">Choose a song</button>
-        <div class="dropdown-content">
-            <?php include 'details.php' ?>
-        </div>
-    </div>
 
     <?php include 'footer.php';?>
 </body>

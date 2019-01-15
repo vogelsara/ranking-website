@@ -12,28 +12,28 @@
 <?php include 'header.php';?>
 
 <h1>Facts about the songs</h1>
-    <div class="dropdown">
-        <button class="dropbtn">Choose a song</button>
-        <div class="dropdown-content">
-            <?php include 'details.php'; 
+<div class="dropdown">
+    <button class="dropbtn">Choose a song</button>
+    <div class="dropdown-content">
+        <?php include 'details.php'; 
 
-                $detailsOfSongs = array(
-                    "Super Trouper" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "Mamma Mia" => "Integer et neque mattis, tristique neque vel, rhoncus turpis.",
-                    "Fernando" => "Mauris ornare dolor et metus finibus consequat.",
-                    "Honey, honey" => "Fusce consequat ante ac quam venenatis dictum et volutpat urna.",
-                    "Chiquitita" => "Pellentesque consectetur magna id commodo sagittis.",
-                    "Dancing Queen" => "Nam tempor metus a magna commodo, ac rhoncus turpis pharetra.",
-                    "S.O.S." => "Duis pretium nisl eget condimentum auctor.",
-                    "The winner takes it all" => "Duis eu felis lobortis, aliquet mi at, convallis neque.",
-                    "Thank you for the music" => "Nunc egestas erat non sapien faucibus, molestie commodo orci accumsan."
-                );
+            $detailsOfSongs = array(
+                "Super Trouper" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "Mamma Mia" => "Integer et neque mattis, tristique neque vel, rhoncus turpis.",
+                "Fernando" => "Mauris ornare dolor et metus finibus consequat.",
+                "Honey, honey" => "Fusce consequat ante ac quam venenatis dictum et volutpat urna.",
+                "Chiquitita" => "Pellentesque consectetur magna id commodo sagittis.",
+                "Dancing Queen" => "Nam tempor metus a magna commodo, ac rhoncus turpis pharetra.",
+                "S.O.S." => "Duis pretium nisl eget condimentum auctor.",
+                "The winner takes it all" => "Duis eu felis lobortis, aliquet mi at, convallis neque.",
+                "Thank you for the music" => "Nunc egestas erat non sapien faucibus, molestie commodo orci accumsan."
+            );
 
-                haveListInDropdown($detailsOfSongs);
-            
-            ?>
-        </div>
+            haveListInDropdown($detailsOfSongs);
+        
+        ?>
     </div>
+</div>
 
 <?php include 'footer.php';?>
 

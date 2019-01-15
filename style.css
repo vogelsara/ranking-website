@@ -76,6 +76,7 @@ ul li{
 .dropdown {
     position: relative;
     display: inline-block;
+    left: 50%;
 }
 
 .dropdown-content {
